@@ -110,6 +110,8 @@ html {
     position: fixed;
     width: 100%;
     height: 75px;
+    z-index: 3;
+    margin-top: 0;
 }
 
 .top-nav h2 {
@@ -118,7 +120,7 @@ html {
 
 .bars {
     position: fixed;
-    right: 5%;
+    right: 10px;
     color: #fff;
 }
 
@@ -149,6 +151,11 @@ h1 {
     position: relative;
     float: left;
     width: 50%;
+}
+
+.project a {
+text-decoration: none;
+color: #fff;
 }
 
 .project-name {
